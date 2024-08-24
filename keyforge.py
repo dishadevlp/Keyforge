@@ -99,7 +99,7 @@ while True:
         print("""KeyForge is a powerful tool designed to generate and manage strong, unique passwords effortlessly. 
 Built with a focus on security and ease of use, KeyForge ensures your digital accounts are protected with robust passwords while simplifying the process of managing them.
 Whether you're creating new passwords or securely storing existing ones, KeyForge provides a seamless and secure experience.""")
-    if command=="add":
+    elif command=="add":
         add()
 
     elif command=="view":
